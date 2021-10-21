@@ -20,6 +20,7 @@ import Senales from "../VivaBarranquilla/charts/Fase1/Monitoreo/Senales";
 import Total from "./charts/Fase1/Monitoreo/Total";
 import Carousel from "./images/Carousel";
 import Temphome from "./charts/Fase1/Temp-Hum/Temphome";
+import Graphs from "./Graphs";
 
 
 
@@ -51,7 +52,7 @@ const Fases = () => {
        
        <CCardBody>
          
-         <Temphome style={{ height: "300px", marginTop: "40px" }} />
+         <Graphs style={{ height: "300px", marginTop: "40px" }} />
        </CCardBody> 
      </CCard> 
      
